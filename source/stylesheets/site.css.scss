@@ -52,6 +52,9 @@ body:before {
   left: 0;
   border: 20px solid white;
   pointer-events: none;
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
 }
 
 /* body:after {
@@ -115,7 +118,7 @@ video {
   left: 0;
   object-fit: cover;
   width: 100vw;
-  height: 66vh;
+  height: 60vh;
   pointer-events: none;
   @media only screen and (min-width: 700px) {
     height: 100vh;
