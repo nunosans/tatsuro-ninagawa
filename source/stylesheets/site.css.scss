@@ -1,24 +1,92 @@
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
+// Google Fonts' IBM Plex Sans.
+// Usage: font-family: 'IBM Plex Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+// Global styles.
+
+*, p, a, button {
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-a {
-  color: rgba(#000, 0.7);
+body:after {
+  // Add a fake frame to the page.
+  content: "";
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 20px solid white;
+  pointer-events: none;
+}
 
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
+// Main: Background video and logo.
+
+main {}
+
+h1 {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 513px;
+  height: 124px;
+  margin-left: -256.5px;
+  margin-top: -62px;
+  color: transparent;
+  background-size: 513px 124px;
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  line-height: 50px;
+  @media only screen and (-webkit-min-device-pixel-ratio: 1) {
+    background-image: url('/images/logo-1x.png');
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    background-image: url('/images/logo-2x.png');
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    background-image: url('/images/logo-3x.png');
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+// Aside: Bio snippet and CTAs.
+
+aside {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 20px 20px 60px 20px;
+  background-color: white;
+  width: 332px;
+
+}
+
+// Section: Bio and price list.
+
+section {
+  display: none; // To show using JavaScript.
+}
+
+// Footer: Copyright.
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
