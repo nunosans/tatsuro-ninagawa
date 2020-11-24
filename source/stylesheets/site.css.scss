@@ -77,7 +77,7 @@ main {}
 h1 {
   position: fixed;
   z-index: 2;
-  top: 33%;
+  top: 25%;
   left: 50%;
   width: 256.5px;
   height: 62px;
@@ -99,6 +99,14 @@ h1 {
   }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) {
     background-image: url('/images/logo-3x.png');
+  }
+  @media only screen and (min-width: 350px) {
+    width: 350px;
+    height: 85px;
+    margin-left: -175px;
+    margin-top: -42.5px;
+    background-size: 350px 85px;
+
   }
   @media only screen and (min-width: 850px) {
     top: 50%;
