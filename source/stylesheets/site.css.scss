@@ -14,7 +14,7 @@ p {
 
 button, a.button {
   display: inline-block;
-  padding: 16px;
+  padding: 13px;
   text-align: center;
   width: 160px;
   height: 56px;
@@ -23,9 +23,15 @@ button, a.button {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   background-color: white;
+  margin-top: 8px;
+  margin-bottom: 8px;
   + button,
   + a.button {
     margin-left: 16px;
+  }
+  img {
+    margin-bottom: -6px;
+    margin-right: 6px;
   }
 }
 
@@ -42,7 +48,7 @@ body:before {
   pointer-events: none;
 }
 
-body:after {
+/* body:after {
   // Add a shadow to the frame
   content: "";
   position: absolute;
@@ -53,7 +59,7 @@ body:after {
   left: 0;
   border: 21px solid rgba(black, 0.04);
   pointer-events: none;
-}
+} */
 
 // Main: Background video and logo.
 
@@ -64,12 +70,12 @@ h1 {
   z-index: 2;
   top: 50%;
   left: 50%;
-  width: 513px;
-  height: 124px;
-  margin-left: -256.5px;
-  margin-top: -62px;
+  width: 256.5px;
+  height: 62px;
+  margin-left: -128.25;
+  margin-top: -31px;
+  background-size: 256.5px 62px;
   color: transparent;
-  background-size: 513px 124px;
   font-size: 80px;
   font-weight: 900;
   text-transform: uppercase;
@@ -84,6 +90,13 @@ h1 {
   }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) {
     background-image: url('/images/logo-3x.png');
+  }
+  @media only screen and (min-width: 700px) {
+    width: 513px;
+    height: 124px;
+    margin-left: -256.5px;
+    margin-top: -62px;
+    background-size: 513px 124px;
   }
 }
 
@@ -109,7 +122,7 @@ aside {
   padding: 20px 20px 42px 2px;
   background-color: white;
   width: 380px;
-  box-shadow: 1px -1px 0 rgba(black, 0.04);
+  // box-shadow: 1px -1px 0 rgba(black, 0.04);
 
 }
 
