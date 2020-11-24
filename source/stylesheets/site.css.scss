@@ -8,8 +8,42 @@
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-body:after {
+p {
+  padding: 7px 0;
+}
+
+button, a.button {
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+  width: 160px;
+  height: 56px;
+  border: 2px solid black;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background-color: white;
+  + button,
+  + a.button {
+    margin-left: 16px;
+  }
+}
+
+body:before {
   // Add a fake frame to the page.
+  content: "";
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 20px solid white;
+  pointer-events: none;
+}
+
+body:after {
+  // Add a shadow to the frame
   content: "";
   position: absolute;
   z-index: 3;
@@ -17,7 +51,7 @@ body:after {
   right: 0;
   bottom: 0;
   left: 0;
-  border: 20px solid white;
+  border: 21px solid rgba(black, 0.04);
   pointer-events: none;
 }
 
@@ -68,12 +102,14 @@ video {
 // Aside: Bio snippet and CTAs.
 
 aside {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 20px 20px 60px 20px;
+  position: fixed;
+  z-index: 5;
+  left: 20px;
+  bottom: 20px;
+  padding: 20px 20px 42px 2px;
   background-color: white;
-  width: 332px;
+  width: 380px;
+  box-shadow: 1px -1px 0 rgba(black, 0.04);
 
 }
 
@@ -86,7 +122,8 @@ section {
 // Footer: Copyright.
 
 footer {
-  position: absolute;
+  position: fixed;
+  z-index: 6;
   bottom: 20px;
   left: 20px;
 }
