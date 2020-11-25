@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="urn:mpeg:DASH:schema:MPD:2011"
+  xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011"
+  type="static"
+  mediaPresentationDuration="PT35.257S"
+  minBufferTime="PT1S"
+  profiles="urn:webm:dash:profile:webm-on-demand:2012">
+<Period id="0" start="PT0S" duration="PT35.257S" >
+<AdaptationSet id="0" mimeType="video/webm" codecs="vp9" lang="eng" bitstreamSwitching="true" subsegmentAlignment="false" subsegmentStartsWithSAP="1">
+<Representation id="0" bandwidth="186055" width="160" height="90">
+<BaseURL>/videos/cutting-video-160x90-250k.webm</BaseURL>
+<SegmentBase
+  indexRange="839004-839159">
+<Initialization
+  range="0-656" />
+</SegmentBase>
+</Representation>
+<Representation id="1" bandwidth="408367" width="320" height="180">
+<BaseURL>/videos/cutting-video-320x180-500k.webm</BaseURL>
+<SegmentBase
+  indexRange="1819552-1819726">
+<Initialization
+  range="0-657" />
+</SegmentBase>
+</Representation>
+<Representation id="2" bandwidth="678866" width="640" height="360">
+<BaseURL>/videos/cutting-video-640x360-750k.webm</BaseURL>
+<SegmentBase
+  indexRange="3043037-3043211">
+<Initialization
+  range="0-658" />
+</SegmentBase>
+</Representation>
+<Representation id="3" bandwidth="1396347" width="1280" height="720">
+<BaseURL>/videos/cutting-video-1280x720-1500k.webm</BaseURL>
+<SegmentBase
+  indexRange="6310305-6310479">
+<Initialization
+  range="0-658" />
+</SegmentBase>
+</Representation>
+</AdaptationSet>
+<AdaptationSet id="1" mimeType="audio/webm" codecs="vorbis" lang="eng" audioSamplingRate="48000" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+<Representation id="4" bandwidth="2570">
+<BaseURL>/videos/cutting-video-audio.webm</BaseURL>
+<SegmentBase
+  indexRange="16571-16719">
+<Initialization
+  range="0-4914" />
+</SegmentBase>
+</Representation>
+</AdaptationSet>
+</Period>
+</MPD>
