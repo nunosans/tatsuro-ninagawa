@@ -37,7 +37,7 @@ button, a.button {
     margin-right: 6px;
   }
   @media only screen and (max-width: 320px) {
-    padding: 12px;
+    padding: 11px;
     img {
       display: none;
     }
@@ -72,6 +72,12 @@ body:before {
   border: 21px solid rgba(black, 0.04);
   pointer-events: none;
 } */
+
+body.ready {
+  #loading-mask {
+    opacity: 0;
+  }
+}
 
 // Main: Background video and logo.
 
@@ -125,6 +131,20 @@ h1 {
     margin-top: -62px;
     background-size: 513px 124px;
   }
+}
+
+#loading-mask {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #FF1700;
+  opacity: 1;
+  pointer-events: none;
+  transition: opacity 2s ease-out 1s;
 }
 
 video {
