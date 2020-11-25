@@ -10,21 +10,24 @@
 
 p {
   padding: 7px 0 14px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 button, a.button {
   display: inline-block;
-  padding: 13px;
+  padding: 11px;
   text-align: center;
+  color: white;
   width: 160px;
-  height: 56px;
-  border: 2px solid black;
+  height: 48px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  background-color: white;
+  background-color: black;
   margin-top: 8px;
   margin-bottom: 8px;
+  border-radius: 8px;
   + button,
   + a.button {
     margin-left: 16px;
@@ -34,7 +37,7 @@ button, a.button {
     margin-right: 6px;
   }
   @media only screen and (max-width: 320px) {
-    padding: 15px;
+    padding: 13px;
     img {
       display: none;
     }
@@ -52,7 +55,7 @@ body:before {
   left: 0;
   border: 20px solid white;
   pointer-events: none;
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 700px) {
     display: none;
   }
 }
