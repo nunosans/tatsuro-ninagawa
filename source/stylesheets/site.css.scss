@@ -139,24 +139,27 @@ h1 {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
   z-index: 1;
   background-color: #FF1700;
   opacity: 1;
   pointer-events: none;
-  transition: opacity 2s ease-out 1s;
+  transition: opacity 3s ease-out 1s;
+  width: 100vw;
+  height: 60vh;
+  @media only screen and (min-width: 700px) {
+    height: 100vh;
+  }
 }
 
 video {
   position: fixed;
   top: 0;
   right: 0;
-  bottom: 0;
   left: 0;
   object-fit: cover;
+  pointer-events: none;
   width: 100vw;
   height: 60vh;
-  pointer-events: none;
   @media only screen and (min-width: 700px) {
     height: 100vh;
   }
@@ -169,8 +172,8 @@ aside {
   z-index: 5;
   left: 0;
   right: 0;
-  bottom: 20px;
-  padding: 20px 20px 42px 20px;
+  bottom: 0;
+  padding: 20px 20px 62px 20px;
   background-color: white;
   // box-shadow: 1px -1px 0 rgba(black, 0.04);
   @media only screen and (min-width: 700px) {
