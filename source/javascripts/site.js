@@ -1,6 +1,4 @@
-$(document).ready(function(){
-
-  $('body').addClass('ready');
+$(document).ready(function() {
 
   // Redirect to Japanese page if browser is in Japanese.
   /* var userLang = navigator.language || navigator.userLanguage;
@@ -9,3 +7,7 @@ $(document).ready(function(){
   } */
 
 });
+
+$(window).on('load', function() {
+  $('body').addClass('ready');
+})
