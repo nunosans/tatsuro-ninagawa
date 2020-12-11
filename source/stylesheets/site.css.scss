@@ -181,12 +181,14 @@ h1 {
   left: 0;
   right: 0;
   z-index: 1;
-  background-color: #FF1700;
   opacity: 1;
   pointer-events: none;
   transition: opacity 2s ease-out 0.72s;
   width: 100vw;
   height: 60vh;
+  // background-color: #FF1700;
+  background-color: white;
+  background-image: url('/images/cutting-video-still-6.jpg');
   @media only screen and (min-width: 700px) {
     height: 100vh;
   }
