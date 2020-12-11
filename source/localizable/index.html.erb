@@ -1,0 +1,308 @@
+---
+title: Tatsuro Ninagawa • Hair stylist in London, UK
+---
+
+<main>
+
+  <h1>
+    Tatsuro Ninagawa
+  </h1>
+
+  <span id="loading-mask"></span>
+
+  <video
+    autoplay
+    loop
+    muted
+    playsinline
+    width="1920"
+    height="1080"
+    poster="/images/cutting-video-poster.jpg"
+  >
+    <!-- <source src="/videos/cutting-video-manifest.mpd"> -->
+    <source src="/videos/cutting-video-1280x720-1500k.mp4"  type="video/mp4" >
+    <source src="/videos/cutting-video-1280x720-1500k.webm" type="video/webm">
+  </video>
+
+</main>
+
+<aside>
+  <img
+    src="/images/icon-scissors-1x.png"
+    width="20"
+    height="20"
+    srcset="/images/icon-scissors-1x.png 1x,
+            /images/icon-scissors-2x.png 2x,
+            /images/icon-scissors-3x.png 3x"
+  >
+  <p>
+    <%= t(:intro) %>
+  </p>
+  <p>
+    <a href="#bio" data-action="show-bio">Bio & Price List</a>
+  </p>
+  <a
+    class="button"
+    href="http://instagram.com/i.am.tatsuro"
+    target="_blank"
+  >
+    <img
+      src="/images/icon-instagram-1x.png"
+      width="20"
+      height="20"
+      srcset="/images/icon-instagram-1x.png 1x,
+              /images/icon-instagram-2x.png 2x,
+              /images/icon-instagram-3x.png 3x"
+    >
+    <%= t(:label_follow) %>
+  </a>
+  <a
+    class="button"
+    href="mailto:tatsurooo1003@gmail.com"
+  >
+    <img
+      src="/images/icon-email-1x.png"
+      width="20"
+      height="20"
+      srcset="/images/icon-email-1x.png 1x,
+              /images/icon-email-2x.png 2x,
+              /images/icon-email-3x.png 3x"
+    >
+    <%= t(:label_email) %>
+  </a>
+</aside>
+
+<section id="about">
+
+  <header>
+    <button data-action="hide-bio"><%= t(:label_close) %></button>
+  </header>
+
+  <main>
+
+    <article id="bio">
+      <h2><%= t(:bio_title) %></h2>
+      <p>
+        <%= t(:bio_body_1) %>
+      </p>
+      <p>
+        <%= t(:bio_body_2) %>
+      </p>
+      <p>
+        <%= t(:bio_body_3) %>
+      </p>
+      <table>
+        <tbody>
+          <tr>
+            <td><b><%= t(:label_location) %></b></td>
+            <td>
+              <a href="https://g.page/shunjilondon?share" target="blank">
+                <%= t(:info_location) %>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><b><%= t(:label_instagram_id) %></b></td>
+            <td>
+              <a href="http://instagram.com/<%= t(:info_instagram_id) %>" target="_blank">
+                @<%= t(:info_instagram_id) %>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><b><%= t(:label_email_address) %></b></td>
+            <td>
+              <a href="mailto:<%= t(:info_email_address) %>">
+                <%= t(:info_email_address) %>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><b><%= t(:label_line_id) %></b></td>
+            <td>
+              <a href="http://line.me/R/ti/p/~<%= t(:info_line_id) %>" target="_blank">
+                <%= t(:info_line_id) %>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><b><%= t(:label_phone_number) %></b></td>
+            <td>
+              <a href="tel:<%= t(:info_phone_number).gsub(/\s+/, '') %>">
+                <%= t(:info_phone_number) %>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+    <article id="price-list">
+      <h2><%= t(:price_list_title) %></h2>
+      <table>
+
+        <thead>
+          <tr>
+            <th colspan="=2">Cut & Blow Dry </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ladies </td>
+            <td>£55 </td>
+          </tr>
+          <tr>
+            <td>Mens</td>
+            <td>£45</td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th colspan="=2">Wash & Blow Dry</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Blow dry </td>
+            <td>£45 </td>
+          </tr>
+          <tr>
+            <td>Quick dry</td>
+            <td>£20</td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th colspan="=2">Permanent Color </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Regrowth </td>
+            <td>£65 </td>
+          </tr>
+          <tr>
+            <td>Full head - Short</td>
+            <td>£80 </td>
+          </tr>
+          <tr>
+            <td>Full head - Medium </td>
+            <td>£100 </td>
+          </tr>
+          <tr>
+            <td>Full head - Long</td>
+            <td>£120</td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th colspan="=2">Bleach </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Regrowth </td>
+            <td>£80</td>
+          </tr>
+          <tr>
+            <td>Full head - Short </td>
+            <td>£130 </td>
+          </tr>
+          <tr>
+            <td>Full head - Medium </td>
+            <td>£160 </td>
+          </tr>
+          <tr>
+            <td>Full head - Long </td>
+            <td>£200 </td>
+          </tr>
+          <tr>
+            <td>Seconda application</td>
+            <td>£80</td>
+          </tr>
+        </tbody>
+
+      </table>
+
+      <table>
+
+        <thead>
+          <tr>
+            <th colspan="2">Balayage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Single Color t</td>
+            <td>£130 </td>
+          </tr>
+          <tr>
+            <td>With Bleach</td>
+            <td>£150</td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th colspan="2">Highlight </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>T-Section t</td>
+            <td>£75 </td>
+          </tr>
+          <tr>
+            <td>Half Head t</td>
+            <td>£95 </td>
+          </tr>
+          <tr>
+            <td>Full Head</td>
+            <td>£135</td>
+          </tr>
+        </tbody>
+
+        <thead>
+          <tr>
+            <th colspan="2">Extras </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Olaplex, Fiberplex </td>
+            <td>£40 </td>
+          </tr>
+          <tr>
+            <td>Eyebrow tintt</td>
+            <td>£10</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </article>
+
+    <article id="portrait">
+      <img
+        src="/images/portrait-1x.jpg"
+        width="400"
+        height="600"
+        srcset="/images/portrait-1x.jpg 1x,
+                /images/portrait-2x.jpg 2x,
+                /images/portrait-3x.jpg 3x"
+      >
+      <small>
+        © 2020 <%= t(:name) %>.
+        <%= t(:credit) %> <a href="http://nunocoelhosantos.com" target="_blank">Nuno Coelho Santos</a>.
+      </small>
+    </article>
+
+  </main>
+
+</section>
+
+<footer>
+  © 2020
+</footer>

@@ -4,8 +4,7 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-# activate :i18n
-# activate :i18n, :mount_at_root => :en
+activate :i18n, :mount_at_root => :en
 
 # Per-page layout changes
 page '/*.xml', layout: false
