@@ -20,7 +20,8 @@ en:
   label_phone_number: "Text:"
   info_location: "London, UK "
   info_instagram_id: "i.am.tatsuro"
-  info_email_address: "tatsuro1003@gmail.com"
+  # info_email_address: "tatsuro1003@gmail.com"
+  info_email_address: "tatsuro@tatsuroninagawa.com"
   info_line_id: "tatsurooo1003"
   info_phone_number: "+44(0) 7902 320 664"
 
