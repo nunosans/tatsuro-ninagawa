@@ -255,9 +255,10 @@ section#about {
   pointer-events: none;
   // opacity: 0;
   padding: 100px 20px;
+  box-shadow: 0 500px 0 white;
   // transition: opacity 0.48s ease-out;
   @media only screen and (min-width: 1257px) {
-    padding: 100px 50px;
+    padding: 100px 25px;
   }
   &.visible {
     // opacity: 1;
@@ -270,6 +271,8 @@ section#about {
       left: 50%;
       margin-left: -608.5px;
       max-width: 1217px;
+      padding-top: 25px;
+      padding-bottom: 25px;
     }
   }
   article {
@@ -303,8 +306,9 @@ section#about {
     table {
       width: 100%;
       @media only screen and (min-width: 900px) {
-        width: 50%;
-        display: initial;
+        max-width: 300px;
+        // width: 49%;
+        // display: inline-block;
       }
       td + td {
         text-align: right;
