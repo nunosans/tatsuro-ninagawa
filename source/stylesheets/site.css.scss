@@ -183,9 +183,9 @@ body {
   transition: opacity 0.72s ease-out 0.12s;
   width: 100vw;
   height: 60vh;
-  background-color: white;
-  background-size: cover;
-  background-image: url('/images/loading-mask.jpg');
+  // background-color: white;
+  // background-size: cover;
+  // background-image: url('/images/loading-mask.jpg');
   filter: blur(20px);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
