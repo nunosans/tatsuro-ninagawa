@@ -45,13 +45,16 @@ h1 {
  }
  &:after {
   content: "";
-  display: block;
+  display: none;
   width: 328px;
   height: 0px;
   border-bottom: 1.5px dashed black;
   position: relative;
   left: 24px;
   top: 30px;
+  @media only screen and (min-width: 700px) {
+    display: block;
+  }
  }
  br {
   @media only screen and (max-width: 699px) {
@@ -225,8 +228,9 @@ aside {
     padding-bottom: 62px;
   }
   img {
-    @media only screen and (max-width: 320px) {
-      display: none;
+    display: none;
+    @media only screen and (min-width: 700px) {
+      display: block;
     }
   }
   button, a.button {
