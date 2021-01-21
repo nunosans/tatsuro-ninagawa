@@ -28,11 +28,14 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 15px;
+  font-size: 14px;
   font: inherit;
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  @media only screen and (min-width: 700px) {
+    font-size: 16px;
+  }
 }
 
 html,
@@ -47,6 +50,7 @@ a {
 
 b, strong {
   font-weight: bold;
+  font: inherit;
 }
 
 i, em {

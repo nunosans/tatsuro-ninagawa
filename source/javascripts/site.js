@@ -6,6 +6,8 @@ $(document).ready(function() {
   //   window.location.href = "/ja"
   // }
 
+  $('body').addClass('ready');
+
   $('*[data-action="show-bio"').on('click', function(event) {
     event.preventDefault();
     $('#about').fadeIn(600).toggleClass('visible')
@@ -29,5 +31,5 @@ $(document).ready(function() {
 });
 
 $(window).on('load', function() {
-  $('body').addClass('ready');
+  $('body').addClass('loaded');
 })

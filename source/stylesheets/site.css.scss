@@ -17,6 +17,12 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  @media only screen and (min-width: 700px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,10 +32,42 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1.5px;
 }
 
+h1 {
+ font-size: 24px;
+ text-transform: none;
+ letter-spacing: 0;
+ font-weight: 400;
+ margin: 0 0 12px 0;
+ line-height: 125%;
+ @media only screen and (min-width: 700px) {
+  font-size: 32px;
+  margin: 8px 0 19px 0;
+ }
+ &:after {
+  content: "";
+  display: block;
+  width: 328px;
+  height: 0px;
+  border-bottom: 1.5px dashed black;
+  position: relative;
+  left: 24px;
+  top: 30px;
+  @media only screen and (max-width: 320px) {
+    display: none;
+  }
+ }
+ br {
+  @media only screen and (max-width: 320px) {
+    display: none;
+  }
+ }
+}
+
 p {
-  padding: 6px 0 6px;
-  font-size: 16px;
-  line-height: 24px;
+  padding: 4px 0 4px;
+  @media only screen and (min-width: 700px) {
+    padding: 6px 0 6px;
+  }
 }
 
 a {
@@ -37,15 +75,16 @@ a {
   border-bottom: 1.5px solid rgba(black, 0.2);
   display: inline-block;
   height: 22px;
+  font-size: inherit;
 }
 
 small {
   font-size: 90%;
-  paddin-top: 20px;
   opacity: 0.7;
+  line-height: 105%;
   a {
     font-weight: normal;
-    height: 18px;
+    // height: 18px;
   }
 }
 
@@ -61,8 +100,8 @@ button, a.button {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   background-color: black;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   border-radius: 9px;
   + button,
   + a.button {
@@ -114,65 +153,20 @@ body:before {
   }
 }
 
-body.ready {
-  #loading-mask {
-    opacity: 0;
+body {
+  &.ready {
+    #loading-mask {
+      opacity: 1;
+    }
+  }
+  &.loaded {
+    #loading-mask {
+      opacity: 0;
+    }
   }
 }
 
 // Main: Background video and logo.
-
-main {}
-
-h1 {
-  position: fixed;
-  z-index: 2;
-  top: 25vh;
-  left: 50%;
-  width: 256.5px;
-  height: 62px;
-  margin-left: -128.25px;
-  margin-top: -31px;
-  background-size: 256.5px 62px;
-  color: transparent;
-  font-size: 40px;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 4px;
-  line-height: 30px;
-  @media only screen and (-webkit-min-device-pixel-ratio: 1) {
-    background-image: url('/images/logo-1x.png');
-  }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    background-image: url('/images/logo-2x.png');
-  }
-  @media only screen and (-webkit-min-device-pixel-ratio: 3) {
-    background-image: url('/images/logo-3x.png');
-  }
-  @media only screen and (min-width: 350px) {
-    font-size: 50px;
-    letter-spacing: 5px;
-    line-height: 38px;
-    width: 320px;
-    height: 78px;
-    margin-left: -160px;
-    margin-top: -39px;
-    background-size: 320px 78px;
-
-  }
-  @media only screen and (min-width: 850px) {
-    font-size: 80px;
-    letter-spacing: 10px;
-    line-height: 62px;
-    top: 50%;
-    width: 513px;
-    height: 124px;
-    margin-left: -256.5px;
-    margin-top: -62px;
-    background-size: 513px 124px;
-  }
-}
 
 #loading-mask {
   display: block;
@@ -181,17 +175,18 @@ h1 {
   left: 0;
   right: 0;
   z-index: 1;
-  opacity: 0;
+  opacity: 1;
   pointer-events: none;
-  transition: opacity 2s ease-out 0.24s;
+  transition: opacity 0.72s ease-out 0.12s;
   width: 100vw;
   height: 60vh;
-  background-color: #FF1700;
-  // background-color: white;
-  // background-size: cover;
-  // background-image: url('/images/cutting-video-still-6.jpg');
+  background-color: white;
+  background-size: cover;
+  background-image: url('/images/loading-mask.jpg');
+  filter: blur(20px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   @media only screen and (min-width: 700px) {
-    opacity: 1;
     height: 100vh;
   }
 }
@@ -218,13 +213,14 @@ aside {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 20px 20px 62px 20px;
+  padding: 20px 20px 42px 20px;
   background-color: white;
   @media only screen and (min-width: 700px) {
     width: 380px;
     left: 20px;
     right: auto;
     padding-left: 0;
+    padding-bottom: 62px;
   }
   img {
     @media only screen and (max-width: 320px) {
@@ -336,6 +332,7 @@ section#about {
     img {
       width: 100%;
       height: auto;
+      padding-bottom: 6px;
     }
   }
   header {
