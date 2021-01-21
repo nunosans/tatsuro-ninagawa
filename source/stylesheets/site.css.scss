@@ -163,6 +163,9 @@ body {
     #loading-mask {
       opacity: 0;
     }
+    video {
+      opacity: 1;
+    }
   }
 }
 
@@ -200,6 +203,8 @@ video {
   pointer-events: none;
   width: 100vw;
   height: 60vh;
+  opacity: 0;
+  transition: opacity 0.72s ease-out 0.12s;
   @media only screen and (min-width: 700px) {
     height: 100vh;
   }
