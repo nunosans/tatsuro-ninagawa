@@ -52,12 +52,12 @@ h1 {
   position: relative;
   left: 24px;
   top: 30px;
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 699px) {
     display: none;
   }
  }
  br {
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 699px) {
     display: none;
   }
  }
