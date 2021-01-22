@@ -157,11 +157,6 @@ body:before {
 body {
   &.ready {
     #loading-mask {
-      opacity: 1;
-    }
-  }
-  &.loaded {
-    #loading-mask {
       opacity: 0;
     }
     video {
@@ -172,6 +167,13 @@ body {
 
 // Main: Background video and logo.
 
+@keyframes fade-in-and-out {
+  0%   { opacity: 0;}
+  5%   { opacity: 1;}
+  50%  { opacity: 1;}
+  100% { opacity: 0;}
+}
+
 #loading-mask {
   display: block;
   position: fixed;
@@ -181,13 +183,11 @@ body {
   z-index: 1;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.72s ease-out 0.12s;
   width: 100vw;
   height: 60vh;
-  // background-color: white;
-  // background-size: cover;
-  // background-image: url('/images/loading-mask.jpg');
   filter: blur(20px);
+  animation: fade-in-and-out 4s;
+  animation-fill-mode: both;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   @media only screen and (min-width: 700px) {
@@ -197,6 +197,7 @@ body {
 
 video {
   position: fixed;
+  opacity: 0;
   top: 0;
   right: 0;
   left: 0;
@@ -204,8 +205,7 @@ video {
   pointer-events: none;
   width: 100vw;
   height: 60vh;
-  opacity: 0;
-  transition: opacity 0.72s ease-out 0.12s;
+  transition: opacity 0s linear 1s;
   @media only screen and (min-width: 700px) {
     height: 100vh;
   }
