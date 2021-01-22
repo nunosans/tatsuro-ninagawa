@@ -8,21 +8,21 @@ ja:
   label_follow: "フォローする"
   label_email: "Eメールする"
   label_close: "閉じる"
-  label_show_bio: "伝記と価格表"
+  # label_show_bio: "伝記と価格表"
 
   bio_title: "伝記"
   bio_body_1: "18歳で美容師を始め東京有名サロンMINXで経験を積んだのち、ロンドンへ。現在はロンドン一等地、コヴェントガーデンのShunjiでサロンワークを行う。"
   bio_body_2: "日本人のお客様には日本で身につけたカット技術を、ヨーロピアンのお客様にはロンドンで得たサスーンカットのスキルを生かし、様々な国の髪質や似合うスタイルを加味しながら提案している。カラーリングではパーソナルカラーの知識をいかし、お客様1人1人にあったカラーリングを提供。"
   bio_body_3: "「似合う」 ナチュラルカラーやハイライトなどを得意とする。"
 
-  label_location: "場所："
+  # label_location: "場所："
   label_instagram_id: "インスタグラム： "
   label_email_address: "Eメール： "
   label_line_id: "LINE： "
   label_phone_number: "メール："
   info_location: "ロンドン、英国"
 
-  price_list_title: "価格表"
+  # price_list_title: "価格表"
   # price_list_1: "カット＆ブロードライ"
   # price_list_1a: "レディース"
   # price_list_1b: "男性用"
