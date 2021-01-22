@@ -53,4 +53,4 @@ ja:
   # price_list_7c: '日本のヘアトリートメント'
   # price_list_7d: '日本の縮毛矯正'
 
-  credit: 'ウェブサイト、ビデオ、写真'
+  credit: '<span class="ww">ウェブサイト、</span><span class="ww">ビデオ、</span><span class="ww">写真</span>'
