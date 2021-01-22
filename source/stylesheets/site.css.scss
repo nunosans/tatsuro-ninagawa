@@ -169,8 +169,8 @@ body {
 
 @keyframes fade-in-and-out {
   0%   { opacity: 0;}
-  5%   { opacity: 1;}
-  50%  { opacity: 1;}
+  4%   { opacity: 1;}
+  66%  { opacity: 1;}
   100% { opacity: 0;}
 }
 
@@ -186,7 +186,7 @@ body {
   width: 100vw;
   height: 60vh;
   filter: blur(20px);
-  animation: fade-in-and-out 4s;
+  animation: fade-in-and-out 5s;
   animation-fill-mode: both;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
