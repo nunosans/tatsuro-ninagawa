@@ -1,9 +1,9 @@
 ---
 ja:
-  name: "蜷川　達郎　"
-  title: "英国ロンドンのヘアスタイリスト"
-  intro: "イギリスロンドンの<a href="https://www.shunji.london" target="_blank">Shunji</a>で働くプロフェッショナルヘアスタイリスト。東京で学んだ技術をロンドンでも提供します。"
-    # https://www.shunji.london
+  name: "蜷川　達郎"
+  title: "イギリスロンドンのヘアスタイリスト"
+  intro: "<span class="ww">イギリス</span><span class="ww">ロンドンの</span><span class="ww"><a href="https://www.shunji.london" target="_blank">Shunji</a>で</span><span class="ww">働く</span><span class="ww">プロフェッショナル</span><span class="ww">ヘア</span><span class="ww">スタイリスト。</span><span class="ww">東京で</span><span class="ww">学んだ</span><span class="ww">技術を</span><span class="ww">ロンドンでも</span><span class="ww">提供</span><span class="ww">します。</span>"
+  # https://www.shunji.london
 
   label_follow: "フォローする"
   label_email: "Eメールする"
@@ -11,12 +11,12 @@ ja:
   # label_show_bio: "伝記と価格表"
 
   bio_title: "伝記"
-  bio_body_1: "18歳で美容師を始め東京有名サロンMINXで経験を積んだのち、ロンドンへ。現在はロンドン一等地、コヴェントガーデンのShunjiでサロンワークを行う。"
-  bio_body_2: "日本人のお客様には日本で身につけたカット技術を、ヨーロピアンのお客様にはロンドンで得たサスーンカットのスキルを生かし、様々な国の髪質や似合うスタイルを加味しながら提案している。カラーリングではパーソナルカラーの知識をいかし、お客様1人1人にあったカラーリングを提供。"
-  bio_body_3: "「似合う」 ナチュラルカラーやハイライトなどを得意とする。"
+  bio_body_1: "<span class="ww">18歳で</span><span class="ww">美容師を</span><span class="ww">始め</span><span class="ww">東京</span><span class="ww">有名</span><span class="ww">サロン</span><span class="ww">MINXで</span><span class="ww">経験を</span><span class="ww">積んだ</span><span class="ww">のち、</span><span class="ww">ロンドンへ。</span><span class="ww">現在は</span><span class="ww">ロンドン</span><span class="ww">一等地、</span><span class="ww">コヴェント</span><span class="ww">ガーデンの</span><span class="ww">Shunjiで</span><span class="ww">サロンワークを</span><span class="ww">行う。</span>"
+  bio_body_2: "<span class="ww">日本人の</span><span class="ww">お客様には</span><span class="ww">日本で</span><span class="ww">身に</span><span class="ww">つけた</span><span class="ww">カット</span><span class="ww">技術を、</span><span class="ww">ヨーロピアンの</span><span class="ww">お客様には</span><span class="ww">ロンドンで</span><span class="ww">得た</span><span class="ww">サスーン</span><span class="ww">カットの</span><span class="ww">スキルを</span><span class="ww">生かし、</span><span class="ww">様々な</span><span class="ww">国の</span><span class="ww">髪質</span><span class="ww">や</span><span class="ww">似合う</span><span class="ww">スタイルを</span><span class="ww">加味しながら</span><span class="ww">提案</span><span class="ww">して</span><span class="ww">いる。</span><span class="ww">カラーリングでは</span><span class="ww">パーソナル</span><span class="ww">カラーの</span><span class="ww">知識を</span><span class="ww">いかし、</span><span class="ww">お客様1人</span><span class="ww">1人に</span><span class="ww">あった</span><span class="ww">カラーリングを</span><span class="ww">提供。</span>"
+  bio_body_3: "<span class="ww">「似合う」</span><span class="ww">ナチュラル</span><span class="ww">カラー</span><span class="ww">や</span><span class="ww">ハイライトなどを</span><span class="ww">得意と</span><span class="ww">する。</span>"
 
   # label_location: "場所："
-  label_instagram_id: "インスタグラム： "
+  label_instagram_id: "インスタグラム："
   label_email_address: "Eメール： "
   label_line_id: "LINE： "
   label_phone_number: "メール："

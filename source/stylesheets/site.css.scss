@@ -165,6 +165,11 @@ body {
   }
 }
 
+// For Japanese text.
+.ww {
+  display: inline-block;
+}
+
 // Main: Background video and logo.
 
 @keyframes fade-in-and-out {
