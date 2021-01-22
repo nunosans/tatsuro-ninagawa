@@ -2,7 +2,8 @@
 en:
   name: "Tatsuro Ninagawa"
   title: "Hair stylist in London, UK"
-  intro: "Professional hairstylist at Shunji in London, UK. Specialized in asian and caucasian hair with the “Sassoon Cut” styling technique."
+  intro: "Professional hairstylist at <a href="https://www.shunji.london" target="_blank">Shunji</a> in London, UK. Specialized in asian and caucasian hair with the “Sassoon Cut” styling technique."
+    # https://www.shunji.london
 
   label_follow: "Follow"
   label_email: "Email"
