@@ -1,9 +1,9 @@
 ---
 en:
   name: 'Tatsuro Ninagawa'
-  title: 'Hair stylist in London, UK'
-  intro: 'Professional hairstylist at <a href="https://www.shunji.london" target="_blank">Shunji</a> in London, UK. Specialized in asian and caucasian hair with the “Sassoon Cut” styling technique.'
-  # https://www.shunji.london
+  title: 'Hair stylist in Berlin, Germany'
+  intro: 'Professional hairstylist at <a href="https://www.linkhair.de/" target="_blank">Link Hair Design</a> in Berlin, Germany. Specialized in Asian and European hair with the “Sassoon Cut” technique.'
+  # https://www.linkhair.de/
 
   label_follow: 'Follow'
   label_email: 'Email'
@@ -11,8 +11,8 @@ en:
   label_show_bio: 'Bio & Price List'
 
   bio_title: 'Bio'
-  bio_body_1: 'Tatsuro Ninagawa started his career when he was 18 years old at MINX which is one of the most famous beauty salons in Japan. He moved his second phase to Shunji Covent Garden in central London from 2019.'
-  bio_body_2: 'Since he has experience in two big global cities, his technique has been specialized to make you look more attractive by utilizing different techniques depending on your hair textures. “Sassoon Cut” is one of his cutting techniques for people who have very soft hair mainly in Europe. He knows how to make Asian hair look more beautiful as well. Taking your advantage is what he does. Your features, face frame, and your hair type.'
+  bio_body_1: 'Tatsuro Ninagawa started his career at MINX which is one of the most famous beauty salons in Japan. After that he goes to London, the holy land of hairdressers. In 2021, He moved to Berlin to work at Link Hair Design in Prenzlauer Berg. He has ten years of experience.'
+  bio_body_2: 'Since he has experience in three big global cities, his technique has been specialized to make you look more attractive by utilizing different techniques depending on your hair textures. “Sassoon Cut” is one of his cutting techniques for people who have very soft hair mainly in Europe. He knows how to make Asian hair look more beautiful as well. Taking your advantage is what he does. Your features, face frame, and your hair type.'
   bio_body_3: 'In order to commit to fit your hairstyle with yourself perfectly, a personal color diagnosis method is used when he finds your best color. He is dedicated to creating gorgeous highlights and “harmonized” natural colors for you.'
 
   label_location: 'Location: '
@@ -20,42 +20,37 @@ en:
   label_email_address: 'Email: '
   label_line_id: 'LINE: '
   label_phone_number: 'Text:'
-  info_location: 'London, UK '
+  info_location: 'Berlin, Germany'
   info_instagram_id: 'i.am.tatsuro'
   info_email_address: 'tatsuro1003@gmail.com'
   # info_email_address: 'tatsuro@tatsuroninagawa.com'
   info_line_id: 'tatsurooo1003'
-  info_phone_number: '+44(0) 7902 320 664'
+  info_phone_number: '+49 163 3739856'
 
   price_list_title: 'Price List'
-  price_list_1: 'Cut & Blow Dry '
+
+  price_list_1:  'Hair Cut'
   price_list_1a: 'Ladies '
   price_list_1b: 'Mens'
-  price_list_2: 'Wash & Blow Dry'
-  price_list_2a: 'Blow dry'
-  price_list_2b: 'Quick dry'
-  price_list_3: 'Permanent Color '
-  price_list_3a: 'Regrowth'
-  price_list_3b: 'Full head (Short)'
-  price_list_3c: 'Full head (Medium)'
-  price_list_3d: 'Full head (Long)'
-  price_list_4: 'Bleach '
-  price_list_4a: 'Regrowth'
-  price_list_4b: 'Full head (Short)'
-  price_list_4c: 'Full head (Medium)'
-  price_list_4d: 'Full head (Long)'
-  price_list_4e: 'Second application'
-  price_list_5: 'Balayage'
-  price_list_5a: 'Single Color'
-  price_list_5b: 'With Bleach'
-  price_list_6: 'Highlight '
-  price_list_6a: 'T-Section'
-  price_list_6b: 'Half Head'
-  price_list_6c: 'Full Head'
-  price_list_7: 'Extras '
-  price_list_7a: 'Olaplex, Fiberplex'
-  price_list_7b: 'Eyebrow tint'
-  price_list_7c: 'Japanese hair treatment'
-  price_list_7d: 'Japanese hair straightening'
+
+  price_list_2:  'Hair Colour'
+  price_list_2a: 'Regrowth'
+  price_list_2b: 'Full Head (Short)'
+  price_list_2c: 'Full Head (Medium)'
+  price_list_2d: 'Full Head (Long)'
+  price_list_2e: 'Bleach  on Colour'
+
+  price_list_3:  'Highlight '
+  price_list_3a: 'Half Head'
+  price_list_3b: 'Full Head'
+
+  price_list_4:  'Japanese Hair Straightning'
+  price_list_4a: 'Fringe'
+  price_list_4b: 'Regrowth'
+  price_list_4c: 'Full Head'
+
+  price_list_5:  'Extras '
+  price_list_5a: 'Japanese Hair Treatment'
+  price_list_5b: 'Head Spa'
 
   credit: 'Website and photography by'
