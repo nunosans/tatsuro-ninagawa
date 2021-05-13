@@ -7,6 +7,7 @@ ja:
 
   label_follow: 'フォローする'
   label_email: 'Eメールする'
+  label_book: '予約する'
   label_close: '閉じる'
   # label_show_bio: '伝記と価格表'
 
