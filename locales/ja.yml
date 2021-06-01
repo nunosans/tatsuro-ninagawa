@@ -18,8 +18,8 @@ ja:
 
   # label_location: '場所：'
   label_instagram_id: 'インスタグラム：'
-  label_email_address: 'Eメール： '
-  label_line_id: 'LINE： '
+  label_email_address: 'Eメール：'
+  label_line_id: 'LINE：'
   label_phone_number: 'メール：'
   info_location: 'ベルリン、ドイツ'
 

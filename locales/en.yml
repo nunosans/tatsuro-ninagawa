@@ -16,10 +16,10 @@ en:
   bio_body_2: 'Since he has experience in three big global cities, his technique has been specialized to make you look more attractive by utilizing different techniques depending on your hair textures. “Sassoon Cut” is one of his cutting techniques for people who have very soft hair mainly in Europe. He knows how to make Asian hair look more beautiful as well. Taking your advantage is what he does. Your features, face frame, and your hair type.'
   bio_body_3: 'In order to commit to fit your hairstyle with yourself perfectly, a personal color diagnosis method is used when he finds your best color. He is dedicated to creating gorgeous highlights and “harmonized” natural colors for you.'
 
-  label_location: 'Location: '
-  label_instagram_id: 'Instagram: '
-  label_email_address: 'Email: '
-  label_line_id: 'LINE: '
+  label_location: 'Location:'
+  label_instagram_id: 'Instagram:'
+  label_email_address: 'Email:'
+  label_line_id: 'LINE:'
   label_phone_number: 'Text:'
   info_location: 'Berlin, Germany'
   info_instagram_id: 'i.am.tatsuro'
@@ -31,27 +31,38 @@ en:
   price_list_title: 'Price List'
 
   price_list_1:  'Hair Cut'
-  price_list_1a: 'Ladies '
+  price_list_1a: 'Ladies'
   price_list_1b: 'Mens'
 
-  price_list_2:  'Hair Colour'
+  price_list_2:  'Hair Color'
   price_list_2a: 'Regrowth'
   price_list_2b: 'Full Head (Short)'
   price_list_2c: 'Full Head (Medium)'
   price_list_2d: 'Full Head (Long)'
-  price_list_2e: 'Bleach  on Colour'
 
-  price_list_3:  'Highlight '
-  price_list_3a: 'Half Head'
-  price_list_3b: 'Full Head'
+  price_list_3:  'Bleach'
+  price_list_3a: 'Regrowth'
+  price_list_3b: 'Full Head (Short)'
+  price_list_3c: 'Full Head (Medium)'
+  price_list_3d: 'Full Head (Long)'
+  price_list_3e: 'Add Color'
+  price_list_3f: 'Add Bleach'
 
-  price_list_4:  'Japanese Hair Straightning'
-  price_list_4a: 'Fringe'
-  price_list_4b: 'Regrowth'
-  price_list_4c: 'Full Head'
+  price_list_4:  'Highlight'
+  price_list_4a: 'Half Head'
+  price_list_4b: 'Full Head'
 
-  price_list_5:  'Extras '
-  price_list_5a: 'Japanese Hair Treatment'
-  price_list_5b: 'Head Spa'
+  price_list_5:  'Permanent'
+  price_list_5a: 'Point Perm'
+  price_list_5b: 'Full Head'
+
+  price_list_6:  'Japanese Hair Straightning'
+  price_list_6a: 'Fringe'
+  price_list_6b: 'Regrowth'
+  price_list_6c: 'Full Head'
+
+  price_list_7:  'Extras'
+  price_list_7a: 'Japanese Hair Treatment'
+  price_list_7b: 'Head Spa'
 
   credit: 'Website and photography by'
