@@ -40,21 +40,24 @@ en:
   price_list_2c: 'Full Head (Medium)'
   price_list_2d: 'Full Head (Long)'
 
-  price_list_3:  'Bleach'
+  price_list_3:  'Bleach & Toner'
   price_list_3a: 'Regrowth'
   price_list_3b: 'Full Head (Short)'
   price_list_3c: 'Full Head (Medium)'
   price_list_3d: 'Full Head (Long)'
-  price_list_3e: 'Add Color'
-  price_list_3f: 'Add Bleach'
+  price_list_3e: 'Add Bleach'
 
   price_list_4:  'Highlight'
   price_list_4a: 'Half Head'
-  price_list_4b: 'Full Head'
+  price_list_4b: 'Half Head with Bleach & Toner'
+  price_list_4c: 'Full Head'
+  price_list_4d: 'Full Head with Bleach & Toner'
 
   price_list_5:  'Permanent'
-  price_list_5a: 'Point Perm'
-  price_list_5b: 'Full Head'
+  price_list_5a: 'Point perm'
+  price_list_5b: 'Full Head (Short)'
+  price_list_5c: 'Full Head (Medium)'
+  price_list_5d: 'Full Head (Long)'
 
   price_list_6:  'Japanese Hair Straightning'
   price_list_6a: 'Fringe'
@@ -63,6 +66,13 @@ en:
 
   price_list_7:  'Extras'
   price_list_7a: 'Japanese Hair Treatment'
-  price_list_7b: 'Head Spa'
+
+  price_list_8:  'Flexible menu'
+  price_list_8a: '~4 hours'
+
+  cancellation_policy: 'Cancellation Policy: '
+  cancellation_policy_body_1: 'If you need to cancel an appointment, we respectfully require that you provide at least 24 hours notice.'
+  cancellation_policy_body_2: 'A cancellation or request to reschedule made less than 24 hours in advance will invoke a cancellation fee. The amount charged will be equal to 100% of the booked services.'
+  cancellation_policy_body_3: 'Should you arrive more than 15 min. late for your appointment, we cannot guarantee that we will provide the service. If we cannot accommodate you, the same cancellation fee will be charged. We will try our best to reschedule your appointment for another time that suits you. Thank you for your understanding.'
 
   credit: 'Website and photography by'

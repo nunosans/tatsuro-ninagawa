@@ -23,4 +23,10 @@ ja:
   label_phone_number: 'メール：'
   info_location: 'ベルリン、ドイツ'
 
+
+  cancellation_policy: 'キャンセル規約：'
+  cancellation_policy_body_1: '予約をキャンセルする必要がある場合は、少なくとも24時間前までに通知する必要があります。'
+  cancellation_policy_body_2: '24時間以内にキャンセルまたはスケジュール変更をリクエストすると、キャンセル料が発生します。請求額は、予約したサービスの100％に相当します。'
+  cancellation_policy_body_3: '予約に15分以上遅れて到着した場合、サービスの提供を保証することはできません。弊社が対応できない場合は、同じキャンセル料がかかります。私たちはあなたに合った別の時間のためにあなたの予定を再スケジュールするために最善を尽くします。'
+
   credit: '<span class="ww">ウェブサイト、</span><span class="ww">ビデオ、</span><span class="ww">写真</span>'
