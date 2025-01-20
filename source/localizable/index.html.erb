@@ -13,11 +13,32 @@ title: Tatsuro Ninagawa • Hair stylist in Berlin, Germany
     loop
     muted
     playsinline
-    width="1920"
-    height="1080"
-    poster="/images/cutting-video-poster.jpg"
+    preload="auto"
+    loading="eager"
+    aria-label="Promotional video for Tatsuro Ninagawa"
+    poster="/images/tatsuro-ninagawa-reel-poster.jpg"
   >
-    <source src="/videos/cutting-video-1280x720-1500k-streamable.mp4"  type="video/mp4" >
+    <source
+      src="/videos/tatsuro-ninagawa-reel.webm"
+      type="video/webm"
+      media="(orientation: landscape)"
+    >
+    <source
+      src="/videos/tatsuro-ninagawa-reel.mp4"
+      type="video/mp4"
+      media="(orientation: landscape)"
+    >
+    <source
+      src="/videos/tatsuro-ninagawa-reel-portrait.webm"
+      type="video/webm"
+      media="(orientation: portrait)"
+    >
+    <source
+      src="/videos/tatsuro-ninagawa-reel-portrait.mp4"
+      type="video/mp4"
+      media="(orientation: portrait)"
+    >
+    <p>Your browser does not support video playback.</p>
   </video>
 
 </main>
